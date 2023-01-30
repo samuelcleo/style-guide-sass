@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/base/_index.scss",
+		"../scss/base/_typeography.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_index.scss'",
+		"@import 'typeography';",
+		"/* ============================================= */\n/*              Typography                       */\n/* ============================================= */\n\n.headline-primary {\n    color: #58e1c1;\n    margin-left: 10px;\n  }\n  \n  .headline-secondary {\n    font-weight: 300;\n    color: #777;\n  }\n  \n  .link {\n    color: #51ddfc;\n    font-weight: 700;\n  }\n  \n  .blockquote {\n    font-size: 1.5em;\n    font-weight: 300;\n    font-style: italic;\n    margin-left: 20px;\n    padding-left: 20px;\n    border-left: 8px solid #58e1c1;\n    border-radius: 5px;\n  }"
+	],
+	"names": [],
+	"mappings": "AEAA,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;;AAEnD,AAAA,iBAAiB,CAAC;EACd,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;CAClB;;;AAED,AAAA,mBAAmB,CAAC;EAClB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;CACZ;;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,iBAAiB;EAC9B,aAAa,EAAE,GAAG;CACnB"
+}
