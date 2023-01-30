@@ -13,21 +13,41 @@
 }
 
 .default {
-    background-color: #51ddfc;
+    background-color: $color-default;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: lighten($color-default, 15%);
+    }
 }
 
 .error {
-    background-color: #e4757a;
+    background-color: $color-error;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: lighten($color-error, 15%);
+    }
 }
 
 .info {
-    background-color: #927bc1;
+    background-color: $color-info;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: lighten($color-info, 15%);
+    }
 }
 
 .success {
-    background-color: #63cc82;
+    background-color: $color-success;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: lighten($color-success, 15%);
+    }
 }
 
 .warning {
-    background-color: #fd7856;
+    background-color: $color-warning;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: lighten($color-default, 15%);
+    }
 }

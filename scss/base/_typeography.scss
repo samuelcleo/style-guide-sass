@@ -3,7 +3,7 @@
 /* ============================================= */
 
 .headline-primary {
-    color: $color-primary;
+    color: $color-accent;
     margin-left: 10px;
   }
   
@@ -13,7 +13,7 @@
   }
   
   .link {
-    color: #51ddfc;
+    color: $color-default;
     font-weight: 700;
   }
   
@@ -23,7 +23,7 @@
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid $color-primary;
+    border-left: 8px solid $color-accent;
     border-radius: 5px;
   }
 
